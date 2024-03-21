@@ -2,8 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
-  annotations:
-    grafana/dashboard-selector: jasolar1
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   links:
@@ -19,6 +17,7 @@ metadata:
     github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
+    grafana/dashboard-selector: jasolar1
 spec:
   type: library
   owner: CNCF
